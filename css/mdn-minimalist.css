@@ -66,6 +66,7 @@ kuma/static/styles/components/structure/page-header/_vars_nav.scss
 /* Based on a modular scale with a base of 18px and a 
    perfect fourth ratio of 1.333 - 
    https://type-scale.com/?size=18&scale=1.333&text=A%20Visual%20Type%20Scale&font=Zilla%20Slab&fontweight=700&bodyfont=Fira%20Sans&bodyfontweight=400&lineheight=1.65&backgroundcolor=white&fontcolor=%23333&preview=false */
+/* approx 72ch for base font size and HHGTTG reference */
 @font-face {
   font-family: zillaslab;
   font-display: swap;
@@ -99,6 +100,12 @@ h5 {
 p {
   margin-bottom: 24px; }
 
+.tiny-text {
+  font-size: 0.75rem; }
+
+.readable-line-length {
+  max-width: 42rem; }
+
 /* text links */
 a:link,
 a:visited {
@@ -123,6 +130,7 @@ code {
 /* Based on a modular scale with a base of 18px and a 
    perfect fourth ratio of 1.333 - 
    https://type-scale.com/?size=18&scale=1.333&text=A%20Visual%20Type%20Scale&font=Zilla%20Slab&fontweight=700&bodyfont=Fira%20Sans&bodyfontweight=400&lineheight=1.65&backgroundcolor=white&fontcolor=%23333&preview=false */
+/* approx 72ch for base font size and HHGTTG reference */
 /* should be defined in `atoms/_borders.scss` */
 /* should be defined in `atoms/....scss` - TBD */
 /* MDN SCHEME
