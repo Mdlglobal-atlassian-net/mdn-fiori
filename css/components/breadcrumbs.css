@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* should be defined in `atoms/_borders.scss` */
+/* should be defined in `atoms/....scss` - TBD */
+/* MDN SCHEME
+kuma/static/styles/includes/_vars.scss
+--------------------------------------------------
+*/
+/* MDN GENERAL
+kuma/static/styles/includes/_vars.scss
+--------------------------------------------------
+*/
+/* TODO */
+/* MDN STATES
+kuma/static/styles/includes/_vars.scss
+--------------------------------------------------
+*/
+/* MDN TOC WIKI
+kuma/static/styles/includes/_vars.scss
+--------------------------------------------------
+*/
+/* MDN EXAMPLES SYNTAX
+kuma/static/styles/components/syntax/example.scss
+--------------------------------------------------
+*/
+/* MDN PROMOTE
+kuma/static/styles/promote.scss
+--------------------------------------------------
+*/
+/* MDN CONTENT
+kuma/static/styles/components/content.scss
+This table style is also defined in 
+kuma/static/styles/includes/_vars.scss
+--------------------------------------------------
+*/
+/* MDN TAGS
+kuma/static/styles/components/tags.scss
+--------------------------------------------------
+*/
+/* MDN FORMS
+kuma/static/styles/includes/_vars.scss
+--------------------------------------------------
+*/
+/* MDN USERS
+kuma/static/styles/components/users/_vars.scss
+--------------------------------------------------
+*/
+/* MDN BANNERS
+kuma/static/styles/components/banners/_vars.scss
+--------------------------------------------------
+*/
+/* MDN PAYMENTS
+kuma/static/styles/components/payments/_vars.scss
+--------------------------------------------------
+*/
+/* MDN BCD
+Not using site default colours, to increase difference
+between colours for colour blind users
+kuma/static/styles/components/compat-tables/_vars.scss
+--------------------------------------------------
+*/
+/* MDN MAIN-NAV
+kuma/static/styles/components/structure/page-header/_vars_nav.scss
+-------------------------------------------------------------------
+*/
+.breadcrumbs {
+  flex: 1 1; }
+  .breadcrumbs ol {
+    flex: 1 1;
+    font-size: 0.9rem; }
+  .breadcrumbs li {
+    display: inline;
+    hyphens: auto; }
+    .breadcrumbs li a.crumb-current-page:link, .breadcrumbs li a.crumb-current-page:visited {
+      color: #333; }
+    .breadcrumbs li .breadcrumb-chevron:after {
+      display: inline-block;
+      content: "›";
+      color: #151515;
+      margin: 0 5px;
+      font-size: 1rem;
+      font-weight: bold; }
+    .breadcrumbs li :last-child .breadcrumb-chevron:after {
+      display: none; }
